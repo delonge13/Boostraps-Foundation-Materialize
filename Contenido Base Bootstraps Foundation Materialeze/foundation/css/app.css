@@ -1,0 +1,65 @@
+body{
+  background: url('../../img/cocina.jpg')no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 1px;
+  padding:2px;
+}
+
+.just-1{
+  background-color: rgba(250, 215, 160, 0.70);
+
+}
+.row-head, .row-content{
+  background-color: rgba(240, 132, 62, 0.70);
+}
+.just-2{
+  background-color: rgba(232, 118, 102, 0.70);
+
+
+}
+.titulo, .slogan{
+  text-align: right;
+}
+ .row-img{
+   border: 1px;
+   height: auto;
+   width: auto;
+   min-width:28px;
+
+}
+h3, .row-img{
+  margin: 3px;
+}
+
+ .list-entradas{
+   border: 5px;
+ }
+.row-pollo, .row-torta{
+  margin: 3px;
+  padding: 4px;
+}
+ .button-enviar{
+  text-align: right;
+}
+
+.sudado, .torta{
+  width:100%;
+}
+ .texto{
+   text-align:justify;
+ }
+ fieldset{
+   text-align: right;
+ }
+
+ @media (min-width:780px){
+   .just, .just-1 {
+     border-right: 1px solid gray;
+   }
+
+   }
+   .row-head{
+     border-bottom: 1px solid gray;
+   }
+ }
