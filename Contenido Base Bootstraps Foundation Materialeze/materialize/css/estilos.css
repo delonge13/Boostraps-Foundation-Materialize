@@ -1,15 +1,101 @@
 
+.content{
+  background-image:url(http://panavision-tours.es/viajes/suiza-turismo/suiza-turismo.jpg);
+  background-color: inherit;
+  background-blend-mode: soft-light;
+  background-attachment: fixed;
+
+}
+.row-complete{
+  margin: auto;
+}
+.comentar{
+  padding: 5px;
+  margin: 10px;
+}
+.delonge{
+  max-height: 260px;
+  margin-top: 20px;
+}
+.text-bgt{
+  margin: 5px;
+}
+.text-bio{
+  margin-bottom: 18px;
+}
+@media (min-width:780px){
+
 .logo{
   margin-top: 0.5rem;
   width:300px;
   position: relative;
-  top: 20px;
+  top: 35px;
 }
 
-.barra-menu{
-  height: 150px;
+.rusia, .paris, .new{
+  max-width: 400px;
+  min-width: 400px;
+  padding: 5px;
+}
+.redes{
+  max-width: 98px;
+  margin-right: 3px;
+  }
+.ciudades{
+  width: auto;
+}
+.redes2{
+  max-width: 60px;
+  margin: 3px;
+}
+.carta{
+  max-width: 400px;
+  min-height: 740px;
 }
 
-.nav-wrapper{
-
+.bogota, .medellin, .andres{
+  max-width: 400px;
+  min-height: 243px;
+  padding: 5px;
 }
+
+.row-blog{
+  margin: 5px;
+}
+.row-carta{
+  margin: 15px;
+}
+
+.bio{
+  padding: 2px;
+  margin-top: 15px;
+}
+
+.la_capital, .la_cartagena{
+  margin: 5px;
+  padding: 2px;
+}
+.bloques{
+  margin: 5px;
+}
+.imgp{
+  margin: 11px;
+}
+.imgc{
+  margin: 10px;
+}
+}
+@media (max-width:780px){
+
+.logo{
+    position: relative;
+    top: 20px;
+  }
+.rusia, .paris, .new, .bogota, .medellin, .andres{
+    min-width: 429px;
+}
+
+.carta{
+      max-width: 429px;
+      min-height: 640px;
+    }
